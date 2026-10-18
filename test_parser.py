@@ -25,7 +25,7 @@ def make_book():
         )
         html = f"""
         <article class="product_pod">
-            <h3><a href="example.html" title="Test Book">Test Book</a></h3>
+            <h3><a href="catalogue/example.html" title="Test Book">Test Book</a></h3>
             {price_html}
             {rating_html}
         </article>
